@@ -1,7 +1,7 @@
 # Printer Project
 The main goal of this program is to simulate a program that uses multiple structs (aka objects) that communicate together to simulate a network printer.  Here is an overview of how to attack the program in a succinct efficient order.
 
--  Complete the struct files.  Complete the user file, the copyJob file, and the paperTray file.  Later you will make a header file for each of these to help import your code into the main program: printer.
+-  Complete the struct files.  Complete the user file, the copyJob file, and the paperTray file.  There are header files (example.h) for each struct/typedef.  These get imported into the main Printer.c file.
 
 -  Start working on the Printer File.
     -  Create the printer struct
