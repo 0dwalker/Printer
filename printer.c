@@ -5,10 +5,12 @@
 
 
 //Define the printer
-struct Printer{
 
+char name[32]= "supper printer";
+int* PaperTray p = 1, quanty, 1000;
+int* userDB[3];
 
-};
+struct Printer p ={name,p};
 
 int trayStatus(){
   return 0;
