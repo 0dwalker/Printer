@@ -2,8 +2,9 @@
 #define USER
 //Define a user
 typedef struct{
-long PageCount;
+
 char username[20];
+long PageCount;
 } User;
 #endif //USER
 
