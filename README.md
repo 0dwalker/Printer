@@ -46,7 +46,7 @@ The printer struct combines all of the paper tray structs together and has built
 These functions will take multiple inputs - including the printer - and change the state of the trays, the users, and the printer.  For each function, read the signature before trying to implement the program.  In particular make note of the parameters provided for you.
 
 -  trayStatus:  returns an integer which is the number of pieces of paper left in the paper tray.  This function accepts two inputs.  The first input is a paper tray pointer (there are 6 pointers to choose from) and a pointer to the printer, used for double checking the pointer the printer has is the same as the one you typed in.
-S
+
 -  reloadTray:  returns the integer 1.  This function accepts two inputs.  The first is the pointer to the printer while the second is an int which corresponds to the number of the correct paper tray.  You should reset the paper tray to 1000 or 2000 depending on the tray selected.  Again, just return 1 after that, it just means "success"!
 
 -  printerStatus: returns an integer which is the total amount of paper in the printer.  This accepts only one input, the pointer to the printer.  Loop through all of the trays, create a total and return that total.
